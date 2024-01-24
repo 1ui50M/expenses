@@ -1,0 +1,221 @@
+body {
+  display: flex;
+  background-color: hsl(27, 66%, 92%);
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.balance {
+  display: flex;
+  background-color: hsl(10, 79%, 65%);
+  height: 100px;
+  width: 430px;
+  border-radius: 14px;
+  margin: 100px 0px 20px 0px;
+  align-items: center;
+}
+.spending {
+  background-color: white;
+  height: 405px;
+  width: 430px;
+  border-radius: 14px;
+}
+.logo {
+  margin: 0px 0px 0px 222px;
+  height: 58px;
+  width: 58px;
+}
+.my {
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  font-weight: lighter;
+  margin: 0px 0px 8px 32px;
+}
+.numero {
+  font-size: 24px;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  margin: 0px 0px 0px 32px;
+}
+.last {
+  color: hsl(25, 47%, 15%);
+  font-family: "DM Sans", sans-serif;
+  font-size: 26px;
+  margin: 26px 0px 12px 32px;
+}
+.week {
+  display: flex;
+  align-items: flex-end;
+  margin: 57px 0px 0px 0px;
+}
+.monday {
+  display: flex;
+  flex-direction: column;
+}
+.mond {
+  height: 37px;
+  width: 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 30px 0px 0px 32px;
+}
+.mon {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 38px;
+  font-size: 12px;
+}
+.tuesday {
+  display: flex;
+  flex-direction: column;
+}
+.tuesd {
+  height: 77px;
+  width: 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 0px 0px 0px 14px;
+}
+.tue {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 24px;
+  font-size: 12px;
+}
+.wednesday {
+  display: flex;
+  flex-direction: column;
+}
+.wednes {
+  height: 120px;
+  width: 40px;
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 4px;
+  margin: 0px 0px 0px 14px;
+}
+.wed {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 20px;
+  font-size: 12px;
+}
+.thursday {
+  display: flex;
+  flex-direction: column;
+}
+.thurs {
+  height: 70px;
+  width: 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 0px 0px 0px 14px;
+}
+.thu {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 24px;
+  font-size: 12px;
+}
+.friday {
+  display: flex;
+  flex-direction: column;
+}
+.frid {
+  height: 57px;
+  width: 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 0px 0px 0px 14px;
+}
+.fri {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 28px;
+  font-size: 12px;
+}
+.saturday {
+  display: flex;
+  flex-direction: column;
+}
+.satur {
+  height: 97px;
+  width: 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 0px 0px 0px 14px;
+}
+.sat {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 24px;
+  font-size: 12px;
+}
+.sunday {
+  display: flex;
+  flex-direction: column;
+}
+.sund {
+  height: 67px;
+  width: 40px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+  margin: 0px 0px 0px 14px;
+}
+.sun {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-weight: lighter;
+  margin: 4px 0px 12px 24px;
+  font-size: 12px;
+}
+.line {
+  height: 0.1px;
+  width: 360px;
+  border: 0.1px solid hsl(27, 66%, 92%);
+  margin: 12px 0px 0px 32px;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+}
+.this {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-size: 13px;
+  margin: 26px 0px 0px 32px;
+}
+.cuatrocientos {
+  color: hsl(25, 47%, 15%);
+  font-family: "DM Sans", sans-serif;
+  font-size: 38px;
+  font-weight: bolder;
+  margin: 0px 0px 12px 32px;
+}
+.month {
+  display: flex;
+}
+.porcent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 50px 0px 0px 128px;
+}
+.dos {
+  color: hsl(25, 47%, 15%);
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.from {
+  font-family: "DM Sans", sans-serif;
+  color: hsl(28, 10%, 53%);
+  font-size: 13px;
+
+}
